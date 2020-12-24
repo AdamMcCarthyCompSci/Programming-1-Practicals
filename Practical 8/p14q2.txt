@@ -1,0 +1,5 @@
+For non-recursive program:
+    High latency in scrolling through termal after inputting integers >=10000. Response times on the timer also increased significantly. Became essentially unresponsive after ~20000.
+
+For recursive program at input >=998:
+    RecursionError: maximum recursion depth exceeded in comparison

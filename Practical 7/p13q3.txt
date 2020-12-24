@@ -1,0 +1,3 @@
+(a) If there is an additional line print(print_max()), then the function executes twice, since it executes by itself as intended, and it is then executed via the print statement. There is an additional outputted "None" statement right afterwards too. This is because the print statement tries to execute the function, but the function has already executed.
+(b) The program isn't executed, since the brackets are mandatory in order to run a function.
+(c) The additional line print(print_max) returns <function print_max at 0x00FC77C0> since the function hasn't ben defined with brackets.

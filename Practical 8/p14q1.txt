@@ -1,0 +1,13 @@
+Using: from time import perf_counter 
+
+For non-recursive program:
+    10!=1.7366044 seconds
+    100!=2.9266885 seconds
+    500!=2.3507846000000003 seconds
+    900!=2.4536188 seconds
+
+For recursive program:
+    10!=0.7086872000000001 seconds
+    100!=1.0851406 seconds
+    500!=2.8251241 seconds
+    900!=2.5190374 seconds
